@@ -10,7 +10,6 @@ def my_collect(array)
 #execute the code in a block I call for each element in the collection (use yield)
 
      new_array << yield(array[i])
-     new_collection << yield(collection[i])
      i += 1
  end
 
