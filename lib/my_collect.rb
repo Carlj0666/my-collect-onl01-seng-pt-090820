@@ -3,13 +3,13 @@
 #take in an argument of a collection - array
 def my_collect(array)
 # #iterate over that colection using while loop
-#   i = 0
-#   while i < array.length
+   i = 0
+   while i < array.length
 # #execute the code in a block I call for each element in the collection (use yield)
 #   array << yield(array[i])
 #   #collection << yield(collection[i])
 # #  i += 1
-# end
+ end
 
 # #RETURN the modified collection
 # #  array
